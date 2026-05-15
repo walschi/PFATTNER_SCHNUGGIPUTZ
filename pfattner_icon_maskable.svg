@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Maskable: 20% Safe-Area, Pfattner-Blau Hintergrund -->
+  <rect width="512" height="512" fill="#2A3F87"/>
+  <g transform="translate(120, 152)">
+    <!-- Hellgrau Hintergrund-Gebäude -->
+    <polygon points="125,38 210,0 300,60 300,240 125,240" fill="#dde0e6"/>
+    <!-- Blaue Streifen werden hier weiß auf blauem Hintergrund -->
+    <g>
+      <polygon points="0,60 180,30 180,82 0,112" fill="#ffffff"/>
+      <polygon points="0,127 180,112 180,165 0,180" fill="#ffffff"/>
+      <polygon points="0,195 180,180 180,240 0,240" fill="#ffffff"/>
+    </g>
+    <!-- Dunkelgrau Streifen -->
+    <g>
+      <polygon points="240,112 300,135 300,165 240,150" fill="#3a3a3a"/>
+      <polygon points="240,165 300,177 300,195 240,187" fill="#3a3a3a"/>
+      <polygon points="240,205 300,205 300,235 240,225" fill="#3a3a3a"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Hintergrund weiß -->
+  <rect width="512" height="512" fill="#ffffff"/>
+
+  <!-- Pfattner-Gebäude stilisiert, zentriert auf Canvas -->
+  <g transform="translate(56, 96)">
+    <!-- Hellgrauer Block hinten (Schrägdach des Gebäudes) -->
+    <polygon points="170,50 280,0 400,80 400,320 170,320" fill="#b3b3b3"/>
+
+    <!-- Linker blauer Hochhaus-Block mit 3 horizontalen Streifen -->
+    <!-- Hintergrund weiß zwischen den Streifen, Streifen selbst blau -->
+    <g>
+      <!-- Streifen 1 (oben) -->
+      <polygon points="0,80 240,40 240,110 0,150" fill="#2A3F87"/>
+      <!-- Streifen 2 (mitte) -->
+      <polygon points="0,170 240,150 240,220 0,240" fill="#2A3F87"/>
+      <!-- Streifen 3 (unten) -->
+      <polygon points="0,260 240,240 240,320 0,320" fill="#2A3F87"/>
+    </g>
+
+    <!-- Rechter dunkelgrauer Block mit 3 horizontalen Streifen -->
+    <g>
+      <polygon points="320,150 400,180 400,220 320,200" fill="#3a3a3a"/>
+      <polygon points="320,220 400,235 400,260 320,250" fill="#3a3a3a"/>
+      <polygon points="320,275 400,275 400,310 320,300" fill="#3a3a3a"/>
+    </g>
+  </g>
+</svg>
